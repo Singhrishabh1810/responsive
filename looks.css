@@ -1,0 +1,106 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+
+.in{
+    background: transparent;
+}
+label{
+    display: inline-block;
+        width: 150px;
+        text-align: start;
+        
+        
+}
+button{
+    font-size: 70%;
+    
+    
+    color:black;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 20%;
+    height: 3em;
+    
+
+    
+}
+.bor{
+    border: 2px solid #f970a0;
+}
+form{
+    color:azure
+    ;
+    background-color:rgba(0,0,0,0.3);
+    margin-top: 29px;
+    margin-left: 175px;
+    margin-right: 175px;
+    border-radius: 30px;
+    font-size: 130%;
+    text-align: center;
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 10px;
+    
+}
+input{
+    border-radius: 9px;
+    height: 22px;
+color: azure;
+transform: scale(1.1);
+
+
+
+}
+::placeholder{
+    text-align: center;
+}
+
+input[type="radio"]{
+    margin-top: -1px;
+    vertical-align: middle;
+    
+}
+h1{
+    font-size: 350%;
+}
+pre{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 600px) {h1{
+    font-size: 300%;
+    text-align: center;}
+}
+@media only screen and (max-width: 600px) {
+button{
+    font-size: 70%;
+    
+    
+    color:black;
+    border-radius: 10px;
+    background-color: aqua;
+    width: 200%;
+    height: 3em;
+    
+
+    
+}
+body{
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+
+}
+.bor{
+    border: 0px solid #f970a0;
+}
+
+}
+    
+    
